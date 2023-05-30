@@ -3,6 +3,15 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+a{
+    text-decoration:none;
+    font-style: normal;
+}
+
+li{
+    list-style: none;
+}
+
 .visually-hidden {
 position: absolute !important;
 clip: rect(1px 1px 1px 1px);
@@ -14,6 +23,76 @@ width: 1px !important;
 overflow: hidden;
 }
 
+.section-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+        
+    color: #212121;
+    }
+    
+    .link:hover,
+    .link:focus{
+        color: #2196F3;
+    }
+    
+    .section{
+        margin-bottom: 94px;
+    }
+/* едер */
+.nav{
+
+}
+
+.logo{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+   
+letter-spacing: 0.03em;
+    
+color: #000000;
+}
+
+.span-logo{
+color: #2196F3;
+}
+
+/* Шапка сайту*/
+.menu{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+
+.menu-list{
+    display: flex;
+   
+}
+
+.menu-item{
+    margin-left: 50px;
+}
+
+
+.header-contakt{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+}
 /* Герой */
 .hero{
     background-color:#2F303A;
@@ -83,4 +162,68 @@ letter-spacing: 0.03em;
 
 color: #757575;
 }
+/* Чим ми займаємося */
+.our-works-list{
+    display: flex;
+}
+/* Наша команда */
+.our-teem{
+    background-color: #F5F4FA;
+}
 
+.our-teem-list{
+    display: flex;
+}
+
+.our-teem-title{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.our-teem-text{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+/* футер */
+.footer{
+    background-color: #2F303A;
+}
+
+.span-footer{
+color: #FFFFFF;
+}
+
+.address{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+.footer-contakt{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+/* Портфоліо */
