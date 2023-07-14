@@ -142,23 +142,39 @@ color: #757575;
 }
 /* Герой */
 .hero{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 1600px;
     background-color:#2F303A;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/hero.png);
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
 }
 
 .hero-title{
-font-weight: 900;
+    margin: 0 auto 30px;
+    max-width: 696px;
 
+font-weight: 900;
 font-size: 44px;
 line-height: 1.36;   
-
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-    
+
 color: #FFFFFF;
 }
 
 .hero-btn{
+
+    padding: 10px 32px;
+    margin-left: auto;
+    margin-right: auto;
+
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -176,6 +192,7 @@ background-color: #2196F3;
     border-radius: 4px;
 
 cursor: pointer;
+
 }
 
 .hero-btn:hover,
