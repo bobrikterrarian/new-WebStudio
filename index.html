@@ -257,6 +257,7 @@
                     </li>
                 </ul>
         </section>
+    </main>
         <!-- Футер -->
         <footer class="footer">
             <div class="container">
@@ -272,59 +273,64 @@
             </ul>
         </footer>    
             </div>
-    <!-- modsl -->
-    <div class="backdrop js-backdrop">
-        <div class="modal">
-            <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
-            <button class="modal-btn">
-                <svg class="modal-icon-close" width="18" height="18">
-                    <use href="./images/svg/symbol-defs.svg#icon-vector-modal"></use>
-                </svg>
-            </button>
+   <!-- modsl -->
+   <div class="backdrop js-backdrop">
+    <div class="modal">
+        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <button class="modal-btn">
+            <svg class="modal-icon-close" width="11" height="11">
+                <use href="./images/symbol-defs.svg#icon-vector-modal"></use>
+            </svg>
+        </button>
 
-            <form class="modal-form">
-                <div class="form-fiel">
-                    <label for="username" class="form-label">
-                        Ім'я
-                        <input class="form-input" type="text" id="username" autofocus>
-                        <svg class="modal-icon" width="18" height="18">
-                            <use href="./images/svg/symbol-defs.svg#icon-person-modal"></use>
-                        </svg>
-                    </label>
+        <form class="modal-form">
+            <div class="form-fiel">
+                <label for="username" class="form-label">
+                    Ім'я</label>
+                <div class="modal-position">
+                    <input class="form-input" type="text" id="username" autofocus>
+                    <svg class="modal-icon" width="18" height="18">
+                        <use href="./images/symbol-defs.svg#icon-person-modal"></use>
+                    </svg>
                 </div>
-                <div class="form-fiel">
-                    <label for="userertel" class="form-label">
-                        Телефон
-                        <input class="form-input" type="tel" id="userertel">
-                        <svg class="modal-icon" width="18" height="18">
-                            <use href="./images/svg/symbol-defs.svg#icon-phone-modal"></use>
-                        </svg>
-                    </label>
+            </div>
+            <div class="form-fiel">
+                <label for="userertel" class="form-label">
+                    Телефон</label>
+                <div class="modal-position">
+                    <input class="form-input" type="tel" id="userertel">
+                    <svg class="modal-icon" width="18" height="18">
+                        <use href="./images/symbol-defs.svg#icon-phone-modal"></use>
+                    </svg>
                 </div>
-                <div class="form-fiel">
-                    <label for="useremail" class="form-label">
-                        Пошта
-                        <input class="form-input" type="email" id="useremail">
-                        <svg class="modal-icon" width="18" height="18">
-                            <use href="./images/svg/symbol-defs.svg#icon-email-modal"></use>
-                        </svg>
-                    </label>
+            </div>
+            <div class="form-fiel">
+                <label for="useremail" class="form-label">
+                    Пошта</label>
+                <div class="modal-position">
+                    <input class="form-input" type="text" id="useremail">
+                    <svg class="modal-icon" width="18" height="18">
+                        <use href="./images/symbol-defs.svg#icon-email-modal"></use>
+                    </svg>
                 </div>
-                    <div class="form-t">
-                     <label for="text " class="form-t">
-                        Коментар
-                       <input class="form-f" type="text">
-                     </label>
-                    </div>
-                    <input type="checkbox" class="checkbox"><p class="span">Погоджуюся з розсилкою та приймаю <a href="" class="modal-link">Умови договору</a></p>
-            </form>
+            </div>
+            <div class="form-fiel">
+                <label class="form-label" for="username">Комментар</label>
+                <textarea class="feedback" name="feedback" rows="5" placeholder="Введіть текст"></textarea>
+            </div>
+            <div class="checkbox-box">
+                <input type="checkbox" class="form-checkbox">
+                <p class="form-text">Погоджуюся з розсилкою та приймаю <span class="form-text-style">Умови
+                        договору</span> </p>
+            </div>
+        </form>
 
-            <button type="submit" class="modal-button" data-action="close-modal">
-                Відправити
-            </button>
-        </div>
+        <button type="submit" class="modal-button" data-action="close-modal">
+            Закрити
+        </button>
     </div>
-    </main>
+</div>
+    
     <script src="./js/modal.js"></script>
 </body>
 
