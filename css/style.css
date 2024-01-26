@@ -105,7 +105,14 @@ p {
 }
 
 /* Шапка сайту*/
-.menu {
+.menu-list {
+  display: flex;
+  margin-left: 93px;
+}
+.menu-list__menu-item {
+  margin-left: 50px;
+}
+.menu-list__menu {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -115,15 +122,6 @@ p {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
-}
-
-.menu-list {
-  display: flex;
-  margin-left: 93px;
-}
-
-.menu-item {
-  margin-left: 50px;
 }
 
 .curren {
@@ -142,25 +140,11 @@ p {
   left: 0;
 }
 
-.header-contakt {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-
 .list-contakts {
   display: flex;
   margin-left: auto;
 }
-
-.list-contakts > .item {
-  margin-left: 50px;
-}
-
-.header-contakt {
+.list-contakts__header-contakt {
   display: flex;
   flex-direction: column;
   display: block;
@@ -173,10 +157,13 @@ p {
   letter-spacing: 0.02em;
   color: #757575;
 }
-
-.header-svg {
+.list-contakts__header-svg {
   margin-right: 10px;
   fill: currentColor;
+}
+
+.list-contakts > .list-contakts__item {
+  margin-left: 50px;
 }
 
 .hero {
@@ -261,7 +248,7 @@ p {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: #757575;
 }
 
 .advantages-text {
@@ -270,7 +257,7 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: #212121;
 }
 
 .our-works {
